@@ -17,7 +17,11 @@ public class PrintAllPossibleStringsDemo {
 
        PrintAllPossibleStrings.printAllPossibleStrings(new StringBuilder(), new char[]{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'}, 3);
        PrintAllPossibleStrings.printCount();
-       PrintAllPossibleStrings.resetCount();       
+       PrintAllPossibleStrings.resetCount();     
+       
+       PrintAllPossibleStrings.printAllPossibleStrings(new StringBuilder(), new char[]{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'}, 8);
+       PrintAllPossibleStrings.printCount();
+       PrintAllPossibleStrings.resetCount();  
     }
 
 }
